@@ -3,7 +3,7 @@ import os from "node:os";
 import path from "node:path";
 import process from "node:process";
 
-import puppeteer from "npm:puppeteer@^24.14.0";
+import puppeteer from "npm:puppeteer-core@^24.14.0";
 
 const executablePath = await findChromeExecutable();
 if (executablePath == null) {
